@@ -341,7 +341,10 @@
         min-height: calc(100vh - 105px);
     }
 
-
+    .pluginbox.pluginbox_tickets {
+        width: 90%;
+        max-width: 1115px;
+    }
 
 
 
@@ -425,7 +428,8 @@
     .about-agency,
     .benefits,
     .reviews,
-    .sectification {
+    .sectification,
+    .mainform.mainform_tickets {
         padding: 60px 0;
     }
 
@@ -870,6 +874,9 @@
         padding-bottom: 10px;
     }
 
+    .mainform.mainform_tickets .mainform__sect {
+        background-image: none;
+    }
 
 
 
@@ -893,7 +900,8 @@
     .about-agency,
     .benefits,
     .reviews,
-    .sectification {
+    .sectification,
+    .mainform.mainform_tickets {
         padding: 40px 0;
     }
 }
@@ -1098,6 +1106,15 @@
         font-size: 16px;
     }
 
+    .pluginbox.pluginbox_tickets,
+    .scrollblock,
+    .pluginbox {
+        width: 100%;
+    }
+
+    .pluginbox {
+        padding: 30px 20px;
+    }
 
     #form-help input::-webkit-input-placeholder {
         font-size: 14px;

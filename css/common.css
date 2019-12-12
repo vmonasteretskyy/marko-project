@@ -1717,3 +1717,27 @@ width: 100%; */
 .mainform.mainform_hot {
     padding-bottom: 144px;
 }
+
+.hottopsect.hottopsect_tour {
+    background-image: url(../image/tourpic.png);
+}
+
+.pluginbox.pluginbox_tickets {
+    width: 1400px;
+}
+
+.pluginbox.pluginbox_tickets iframe {
+    width: 100%;
+}
+
+.hottopsect.hottopsect_tickets {
+    background-image: url(../image/tickets.png);
+}
+
+.mainform.mainform_tickets {
+    padding: 94px 0 144px 0;
+}
+
+.mainform.mainform_tickets .mainform__sect {
+    background-image: url(../image/tickets-formpic.png);
+}
