@@ -1506,7 +1506,8 @@ font-family: coventry;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     z-index: 200;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
+    -webkit-animation: splash 3s ease-in;
 }
 
 #loader {
@@ -1549,7 +1550,8 @@ font-family: coventry;
     animation: loader 4s linear;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
+    -webkit-animation: loader 4s linear;
 }
 
 @keyframes loader {
