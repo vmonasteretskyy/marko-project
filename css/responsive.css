@@ -329,6 +329,17 @@
         width: 13px;
     }
 
+    .pluginbox>h1::before {
+        top: 22px;
+    }
+
+    .tourssect .col-lg-4 a {
+        margin-bottom: 30px;
+    }
+
+    .hottopsect {
+        min-height: calc(100vh - 105px);
+    }
 
 
 
@@ -343,11 +354,9 @@
 
 
 
-
-
-
-
-
+    .tourssect.tourssect_purple:before {
+        height: 200px;
+    }
 
     /* fz */
     .hi.header__showhov,
@@ -383,7 +392,8 @@
         font-size: 40px;
     }
 
-    #form-help .title {
+    #form-help .title,
+    h1 {
         font-size: 32px;
     }
 
@@ -403,8 +413,13 @@
     /* mar / padd */
     .propositions,
     .propositions__exk,
-    .mainform__sect {
+    .mainform__sect,
+    .tourssect {
         padding-top: 60px;
+    }
+
+    .mainform.mainform_hot {
+        padding-bottom: 60px;
     }
 
     .about-agency,
@@ -478,7 +493,9 @@
         bottom: 35px;
     }
 
-
+    .tourssect h3 {
+        margin-bottom: 25px;
+    }
 
 
 
@@ -730,6 +747,23 @@
     .header__nav ul li a {
         font-size: 22px;
     }
+
+    .scrollblock {
+        overflow: hidden;
+        width: 90%;
+    }
+
+    .pluginbox {
+        overflow: scroll;
+        padding: 30px;
+    }
+
+    .pluginbox>h1::before {
+        display: none;
+    }
+
+
+
 }
 
 @media(max-width:767.8px) {
@@ -828,6 +862,16 @@
         width: 24px;
     }
 
+    .mainform.mainform_hot form {
+        margin-top: 40px;
+    }
+
+    .tourssect.tourssect_purple {
+        padding-bottom: 10px;
+    }
+
+
+
 
 
     .slider__scroll-to,
@@ -841,7 +885,8 @@
     /* - */
     .propositions,
     .propositions__exk,
-    .mainform__sect {
+    .mainform__sect,
+    .tourssect {
         padding-top: 40px;
     }
 
@@ -974,6 +1019,10 @@
     /* fz */
     .slide-info p {
         font-size: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
     }
 
     h3 {
