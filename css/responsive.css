@@ -961,6 +961,10 @@
         font-size: 16px;
     }
 
+    .mainslider,
+    .slider-for__slide {
+        min-height: 100vh;
+    }
 
 
 
