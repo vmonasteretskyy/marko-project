@@ -364,7 +364,7 @@
     }
 
     .breadcrumbs-box {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .breadcrumbs-box ul li:after {
@@ -489,9 +489,17 @@
         margin-bottom: 30px;
     }
 
+    .singlenew__content img {
+        margin-bottom: 30px;
+    }
 
+    .singlenew__nav ul li:nth-child(1):after {
+        top: -6px;
+    }
 
-
+    .singlenew__nav {
+        margin-top: 40px;
+    }
 
 
 
@@ -528,7 +536,9 @@
     .daynum p,
     .dayinf p,
     .tourpr-also ul li,
-    .newbox__text p {
+    .newbox__text p,
+    .singlenew__content p,
+    .singlenew__nav ul li a {
         font-size: 16px;
     }
 
@@ -539,7 +549,8 @@
     .tour__inforow .title p,
     .tour__inforow .descr p,
     .important-news ul li a,
-    .new__title span {
+    .new__title span,
+    .singlenew__date {
         font-size: 14px;
     }
 
@@ -593,7 +604,8 @@
 
     .mainform.mainform_hot,
     .mainform.mainform_serv,
-    .tourtopsect {
+    .tourtopsect,
+    .singlenew {
         padding-bottom: 60px;
     }
 
@@ -896,7 +908,6 @@
         background-repeat: no-repeat;
         overflow: hidden;
         background-position: left 20px top 20px;
-        /* display: none; */
     }
 
     .header__nav .showtablet-menu:after {
@@ -1024,6 +1035,11 @@
         display: none;
     }
 
+
+
+
+
+    /* 991  */
 }
 
 @media(max-width:767.8px) {
@@ -1164,6 +1180,14 @@
         display: none;
     }
 
+
+
+
+
+
+
+
+
     /* - */
     .propositions,
     .propositions__exk,
@@ -1180,7 +1204,8 @@
     .mainform.mainform_tickets,
     .propositions.propositions__tour,
     .tour-program,
-    .news-section {
+    .news-section,
+    .singlenew {
         padding: 40px 0;
     }
 
@@ -1379,7 +1404,11 @@
         font-size: 30px;
     }
 
-    /* fz */
+    .singlenew__nav ul li {
+        padding: 0 10px;
+    }
+
+    /* fz 575 */
     #form-help .title {
         font-size: 28px;
     }
@@ -1552,7 +1581,13 @@
         background-image: url(../image/icons/arrow-right.svg);
     }
 
+    .singlenew__nav ul li:nth-child(1):after {
+        display: none;
+    }
 
+    .singlenew__nav ul li:first-child {
+        margin-bottom: 10px;
+    }
 
     /* fz */
     .violetbtn,
