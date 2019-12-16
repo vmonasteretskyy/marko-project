@@ -1,12 +1,14 @@
 /* ------------------------------------------------------------------general */
 @font-face {
     font-family: GothamPro;
-    src: url(../fonts/GothamPro.ttf)
+    src: url(../fonts/GothamPro.ttf);
 }
 
 @font-face {
     font-family: HelveticaNeue;
-    src: url(../fonts/HelveticaNeue.ttf)
+    /* src: url(../fonts/HelveticaNeue.ttf); */
+    src: url(../fonts/helveticaneuecyr-roman.otf);
+
 }
 
 @font-face {

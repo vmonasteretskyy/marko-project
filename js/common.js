@@ -275,12 +275,15 @@ $(document).ready(function () {
     });
 
     // 404
-    let windowHeight = $(window).innerHeight(),
-        headerHeight = $('header').innerHeight(),
-        footerHeight = $('footer').innerHeight(),
-        errorPageHeight = windowHeight - (headerHeight + footerHeight);
+    if ($(window).width() > 991) {
+        let windowHeight = $(window).innerHeight(),
+            headerHeight = $('header').innerHeight(),
+            footerHeight = $('footer').innerHeight(),
+            errorPageHeight = windowHeight - (headerHeight + footerHeight);
 
-    $('.error-sect').css('min-height', errorPageHeight);
+        $('.error-sect').css('min-height', errorPageHeight);
+
+    }
 
 
 
@@ -328,11 +331,13 @@ $(document).ready(function () {
 });
 
 $(window).resize(function () {
-    // 404
-    let windowHeight = $(window).innerHeight(),
-        headerHeight = $('header').innerHeight(),
-        footerHeight = $('footer').innerHeight(),
-        errorPageHeight = windowHeight - (headerHeight + footerHeight);
+    if ($(window).width() > 991) {
+        let windowHeight = $(window).innerHeight(),
+            headerHeight = $('header').innerHeight(),
+            footerHeight = $('footer').innerHeight(),
+            errorPageHeight = windowHeight - (headerHeight + footerHeight);
 
-    $('.error-sect').css('min-height', errorPageHeight);
+        $('.error-sect').css('min-height', errorPageHeight);
+
+    }
 });

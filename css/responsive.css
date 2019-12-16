@@ -1056,7 +1056,10 @@
         display: none;
     }
 
-
+    .error-sect {
+        min-height: calc(100vh - 404px);
+        height: auto;
+    }
 
 
 
@@ -1429,6 +1432,33 @@
         padding: 0 10px;
     }
 
+    .error__box .title {
+        font-size: 22px;
+    }
+
+    .error__box {
+        max-width: 90%;
+        padding: 40px 25px 40px 25px;
+        border-radius: 40px 0 40px 0;
+        -webkit-border-radius: 40px 0 40px 0;
+        -moz-border-radius: 40px 0 40px 0;
+        -ms-border-radius: 40px 0 40px 0;
+        -o-border-radius: 40px 0 40px 0;
+    }
+
+    .error-sect {
+        min-height: calc(100vh - 250px);
+    }
+
+    .error__box .title:before {
+        display: none;
+    }
+
+
+
+
+
+
     /* fz 575 */
     #form-help .title {
         font-size: 28px;
@@ -1627,4 +1657,26 @@
 
 
 /* height resp */
-@media(max-width: 1080.8px) {}
+@media(max-height: 1081px) and (min-width:1024px) {
+    .error__box {
+        height: auto;
+    }
+
+    .error__box .title {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-height: 960px) and (min-width:1024px) {
+    .error__box {
+        padding: 80px 55px 70px 55px;
+    }
+
+    .error__box .title {
+        margin-bottom: 60px;
+    }
+
+    .error__box .title:before {
+        width: 100px;
+    }
+}
