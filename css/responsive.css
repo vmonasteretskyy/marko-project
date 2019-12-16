@@ -346,6 +346,148 @@
         max-width: 1115px;
     }
 
+    header .submenu {
+        width: 315px;
+    }
+
+    .services-info__textbox h1 {
+        padding-left: 100px;
+    }
+
+    .services-infopics {
+        margin-left: 0;
+    }
+
+    #form-help .title.linev:before {
+        left: -170px;
+        top: 19px;
+    }
+
+    .breadcrumbs-box {
+        margin-top: 10px;
+    }
+
+    .breadcrumbs-box ul li:after {
+        top: 8px;
+    }
+
+    .breadcrumbs-box ul li {
+        padding-right: 16px;
+    }
+
+    .breadcrumbs-box ul li:after {
+        right: 4px;
+    }
+
+    .tourtopsect h1.hot:after {
+        background-size: 100%;
+        width: 20px;
+        height: 30px;
+    }
+
+    .tourtopsect .costnum {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tour__inforow .title {
+        padding: 15px 5px 15px 10px;
+        width: 100px;
+    }
+
+    .tour__inforow .descr {
+        padding: 15px 5px 15px 10px;
+    }
+
+    .tourmain-slider .slick-slide {
+        height: 430px;
+    }
+
+    .tourmain-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+        background-size: 12px;
+    }
+
+    .tourmain-slider .slick-arrow.slick-prev {
+        right: 50px;
+    }
+
+    .tourmain-slider .slick-arrow.slick-next:before {
+        height: 75%;
+    }
+
+    .tourlitt-slider .slick-slide {
+        height: 175px;
+    }
+
+    .daynum p {
+        padding: 15px 5px;
+    }
+
+    .dayinf {
+        padding: 15px 28px 15px 36px !important;
+    }
+
+    .whitebtn {
+        text-align: center;
+        font-size: 16px;
+        height: 50px;
+    }
+
+    h4:before {
+        height: 1px;
+        width: 35px;
+    }
+
+    .tourpr-also h4 {
+        margin-bottom: 10px;
+    }
+
+    .tour-program h3 {
+        margin-bottom: 20px;
+    }
+
+    .services-info__textbox h1:before {
+        top: 21px;
+    }
+
+    h1.linebefore {
+        padding-left: 100px;
+    }
+
+    .important-news .title {
+        margin-bottom: 15px;
+    }
+
+    .important-news ul li a {
+        margin-bottom: 0;
+    }
+
+    .important-news ul li:before {
+        top: 9px;
+    }
+
+    .important-news ul li {
+        margin-bottom: 15px;
+    }
+
+    .newbox__pic {
+        height: 410px;
+    }
+
+    .new__title {
+        min-height: 120px;
+    }
+
+    .new__title {
+        max-width: 550px;
+    }
+
+    h1.linebefore {
+        margin-bottom: 30px;
+    }
 
 
 
@@ -355,7 +497,10 @@
 
 
 
-
+    /* 1600 */
+    .services-info p {
+        line-height: 140%;
+    }
 
     .tourssect.tourssect_purple:before {
         height: 200px;
@@ -378,14 +523,26 @@
     .footer__lefttext p.worktime,
     .footer__righttext .footer__address,
     .footer__righttext .footer__maptext,
-    .footer-recive {
+    .footer-recive,
+    .services-info p,
+    .daynum p,
+    .dayinf p,
+    .tourpr-also ul li,
+    .newbox__text p {
         font-size: 16px;
     }
 
     .header__nav ul li a,
-    .reviews__slide .title-box .prof {
+    .reviews__slide .title-box .prof,
+    .breadcrumbs-box ul li,
+    .breadcrumbs-box ul li a,
+    .tour__inforow .title p,
+    .tour__inforow .descr p,
+    .important-news ul li a,
+    .new__title span {
         font-size: 14px;
     }
+
 
     h3 {
         font-size: 50px;
@@ -396,20 +553,32 @@
     }
 
     #form-help .title,
-    h1 {
+    h1,
+    h4 {
         font-size: 32px;
     }
 
     .header__infoname,
-    .slide-info p {
+    .slide-info p,
+    .important-news .title {
         font-size: 28px;
     }
 
-    .proposition__descr .price span {
+    .proposition__descr .price span,
+    .tourtopsect h1 {
         font-size: 24px;
     }
 
-    .slider__scroll-to {
+    .new__title p {
+        font-size: 22px;
+    }
+
+    .tour__inforow .descr p span {
+        font-size: 20px;
+    }
+
+    .slider__scroll-to,
+    .important-news ul li span {
         font-size: 12px;
     }
 
@@ -417,11 +586,14 @@
     .propositions,
     .propositions__exk,
     .mainform__sect,
-    .tourssect {
+    .tourssect,
+    .services-info {
         padding-top: 60px;
     }
 
-    .mainform.mainform_hot {
+    .mainform.mainform_hot,
+    .mainform.mainform_serv,
+    .tourtopsect {
         padding-bottom: 60px;
     }
 
@@ -429,7 +601,10 @@
     .benefits,
     .reviews,
     .sectification,
-    .mainform.mainform_tickets {
+    .mainform.mainform_tickets,
+    .tour-program,
+    .propositions.propositions__tour,
+    .news-section {
         padding: 60px 0;
     }
 
@@ -501,11 +676,17 @@
         margin-bottom: 25px;
     }
 
+    header .submenu {
+        width: 250px;
+    }
 
+    header .submenu li a {
+        padding: 10px 10px 10px 20px;
+    }
 
-
-
-
+    .tourpr-also h4 {
+        line-height: normal;
+    }
 
 
 
@@ -766,7 +947,82 @@
         display: none;
     }
 
+    .header__nav .showtablet-menu ul .submenu {
+        max-width: 400px;
+        background-color: #fff;
+        position: relative;
+        padding: 10px 20px;
+        width: 100%;
+        margin: 10px;
+        display: none;
+    }
 
+    header .submenu li a {
+        padding: 0;
+    }
+
+    .header__nav ul li a:hover+ul.submenu,
+    ul.submenu:hover {
+        display: none;
+    }
+
+    .header__nav .showtablet-menu ul .submenu {
+        width: 305px;
+    }
+
+    .scrmenu {
+        padding: 30px 0;
+        overflow: scroll;
+        max-height: 100vh;
+    }
+
+    #form-help .title.linev:before,
+    .services-info__textbox h1:before,
+    .slide-info:before {
+        display: none;
+    }
+
+    .services-info__textbox h1 {
+        padding-left: 0;
+    }
+
+    .tourtopsect .costnum {
+        height: 50px;
+        max-width: 300px;
+    }
+
+    .tourtopsect h1 {
+        margin-bottom: 20px;
+    }
+
+    .tour-slider .col-xl-2.col-lg-2 {
+        display: none;
+    }
+
+    .whitebtn {
+        max-width: 350px;
+    }
+
+    .tour-program .whitebtn {
+        margin: 0 auto;
+    }
+
+    .tour-program .violetbtn {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .important-news {
+        margin-top: 40px;
+    }
+
+    h1.linebefore {
+        padding-left: 0;
+    }
+
+    h1.linebefore:before {
+        display: none;
+    }
 
 }
 
@@ -878,8 +1134,27 @@
         background-image: none;
     }
 
+    .mainform.mainform_serv .mainform__sect.form-section {
+        background-image: none;
+    }
 
+    .tourtopsect h1.hot:after {
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
 
+    .tourmain-slider {
+        margin-top: 40px;
+    }
+
+    .newbox a .newbox__pic .new__title {
+        border-radius: 50px 0 0 0;
+        -webkit-border-radius: 50px 0 0 0;
+        -moz-border-radius: 50px 0 0 0;
+        -ms-border-radius: 50px 0 0 0;
+        -o-border-radius: 50px 0 0 0;
+    }
 
     .slider__scroll-to,
     .slick-active .animate-line,
@@ -893,7 +1168,8 @@
     .propositions,
     .propositions__exk,
     .mainform__sect,
-    .tourssect {
+    .tourssect,
+    .services-info {
         padding-top: 40px;
     }
 
@@ -901,8 +1177,15 @@
     .benefits,
     .reviews,
     .sectification,
-    .mainform.mainform_tickets {
+    .mainform.mainform_tickets,
+    .propositions.propositions__tour,
+    .tour-program,
+    .news-section {
         padding: 40px 0;
+    }
+
+    .tourtopsect {
+        padding-bottom: 40px;
     }
 }
 
@@ -1019,12 +1302,88 @@
         min-height: calc(100vh - 50px);
     }
 
+    .header__nav .showtablet-menu ul .submenu {
+        width: auto;
+        max-width: 200px;
+    }
 
+    .header__nav .showtablet-menu {
+        background-position: left 10px top 10px;
+        background-size: 60px !important;
+    }
 
+    .loadfile-box {
+        margin-top: 20px;
+    }
 
+    .tourpr-also ul {
+        margin-bottom: 30px;
+    }
 
+    .tour-program {
+        padding-bottom: 10px;
+    }
+
+    h1.linebefore {
+        margin-bottom: 20px;
+    }
+
+    .newbox__pic {
+        height: 300px;
+    }
+
+    .new__title p {
+        font-size: 18px;
+    }
+
+    .new__title span {
+        font-size: 12px;
+    }
+
+    .new__title span {
+        margin-bottom: 0;
+    }
+
+    .new__title {
+        min-height: initial;
+    }
+
+    .new__title {
+        padding: 15px 15px 15px 30px;
+    }
+
+    .newbox__text {
+        padding: 15px;
+    }
+
+    .newbox {
+        margin-bottom: 30px;
+    }
+
+    .pagination-block ul li a:not(.pagprev):not(.pagnext) {
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .pagination-block ul li a.pagprev,
+    .pagination-block ul li a.pagnext {
+        font-size: 14px;
+    }
+
+    .pagination-block ul li {
+        margin: 0 2px;
+    }
+
+    .footer__lefttext p.title {
+        font-size: 30px;
+    }
 
     /* fz */
+    #form-help .title {
+        font-size: 28px;
+    }
+
     .slide-info p {
         font-size: 20px;
     }
@@ -1135,6 +1494,65 @@
         font-size: 14px;
         letter-spacing: 0;
     }
+
+    .tourtopsect {
+        padding-top: 20px;
+    }
+
+    .daynum {
+        width: 100%;
+    }
+
+    .daynum p {
+        line-height: normal;
+        padding: 15px;
+        min-height: initial;
+    }
+
+    .dayinf {
+        padding: 10px 15px 10px 15px !important;
+    }
+
+    .propositions.propositions__tour {
+        padding-bottom: 20px;
+    }
+
+    .pagination-block ul li {
+        height: 25px;
+    }
+
+    .pagination-block ul li a.pagprev,
+    .pagination-block ul li a.pagnext {
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        -webkit-user-select: none;
+        color: transparent;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 12px;
+    }
+
+    .pagination-block ul li a.pagprev:focus,
+    .pagination-block ul li a.pagnext:focus,
+    .pagination-block ul li a.pagprev:hover,
+    .pagination-block ul li a.pagnext:hover {
+        color: transparent !important;
+    }
+
+    .pagination-block ul li a.pagprev {
+        background-image: url(../image/icons/arrow-left.svg);
+    }
+
+    .pagination-block ul li a.pagnext {
+        background-image: url(../image/icons/arrow-right.svg);
+    }
+
+
 
     /* fz */
     .violetbtn,

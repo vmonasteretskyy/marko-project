@@ -188,6 +188,61 @@ $(document).ready(function () {
             }
         ]
     });
+
+    // TOUR SLIDERS
+    $('.tourmain-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        dots: false,
+        asNavFor: '.tourlitt-slider',
+        // autoplay: true,
+        autoplaySpeed: 4000,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+    });
+    $('.tourlitt-slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        asNavFor: '.tourmain-slider',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+        // autoplay: true,
+        autoplaySpeed: 4000,
+        centerPadding: '0px',
+        vertical: true,
+    });
+    $('.hottour-tour').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        dots: false,
+        // autoplay: true,
+        autoplaySpeed: 4000,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+    // ALL SLIDERS END
+
     // BURGER MENU
     $('.burgermenu > img').click(function () {
         $('.header__nav').show(300);
@@ -197,7 +252,11 @@ $(document).ready(function () {
         $('.header__nav').hide(300);
     });
 
-
+    if ($(window).width() < 992) {
+        $('.submparr > a').click(function () {
+            $(this).next().toggle();
+        });
+    }
 
 
 
