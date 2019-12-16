@@ -501,6 +501,26 @@
         margin-top: 40px;
     }
 
+    .error__box {
+        width: 500px;
+        height: auto;
+        padding: 75px 35px 75px 35px;
+    }
+
+    .error__box .title {
+        margin-bottom: 50px;
+    }
+
+    .error__box .title:before {
+        left: -120px;
+        top: 19px;
+    }
+
+    .error-sect {
+        height: calc(100vh - 105px);
+    }
+
+
 
 
 
@@ -571,7 +591,8 @@
 
     .header__infoname,
     .slide-info p,
-    .important-news .title {
+    .important-news .title,
+    .error__box .title {
         font-size: 28px;
     }
 
@@ -1602,3 +1623,8 @@
         font-size: 26px;
     }
 }
+
+
+
+/* height resp */
+@media(max-width: 1080.8px) {}

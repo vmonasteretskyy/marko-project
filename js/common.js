@@ -274,6 +274,13 @@ $(document).ready(function () {
         $('body,html').animate({ scrollTop: top }, 1000);
     });
 
+    // 404
+    let windowHeight = $(window).innerHeight(),
+        headerHeight = $('header').innerHeight(),
+        footerHeight = $('footer').innerHeight(),
+        errorPageHeight = windowHeight - (headerHeight + footerHeight);
+
+    $('.error-sect').css('min-height', errorPageHeight);
 
 
 
@@ -318,4 +325,14 @@ $(document).ready(function () {
     }
 
 
+});
+
+$(window).resize(function () {
+    // 404
+    let windowHeight = $(window).innerHeight(),
+        headerHeight = $('header').innerHeight(),
+        footerHeight = $('footer').innerHeight(),
+        errorPageHeight = windowHeight - (headerHeight + footerHeight);
+
+    $('.error-sect').css('min-height', errorPageHeight);
 });
