@@ -241,6 +241,34 @@ $(document).ready(function () {
             }
         ]
     });
+
+    $('.ourteam__slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        dots: false,
+        // autoplay: true,
+        autoplaySpeed: 4000,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+
     // ALL SLIDERS END
 
     // BURGER MENU
@@ -257,13 +285,6 @@ $(document).ready(function () {
             $(this).next().toggle();
         });
     }
-
-
-
-
-
-
-
 
     // scroll to
 
@@ -286,7 +307,16 @@ $(document).ready(function () {
     }
 
 
-
+    // messenger
+    $('.messenger-fixicon').hide();
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 100) {
+            $('.messenger-fixicon').fadeIn('slow');
+        }
+        else {
+            $('.messenger-fixicon').fadeOut('slow');
+        }
+    });
 
 
 

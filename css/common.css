@@ -2590,7 +2590,7 @@ h1.linebefore {
 
 /* ----------------------------------------------------------------------------404 */
 .error-sect {
-    padding: 30px 0;
+    padding: 115px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2634,6 +2634,214 @@ h1.linebefore {
 .error__box a.violetbtn {
     margin-top: 0;
 }
+
+/* ---------------------------------------------------------CONTACT */
+.contact-topsection {
+    padding: 105px 0 90px 0;
+    border-bottom: 1px solid rgba(98, 72, 124, 0.35);
+}
+
+#map {
+    height: 718px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mapsect {
+    position: relative;
+}
+
+.mapsect__infobox {
+    background: #FBFBFB;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 80px 0px 80px 0;
+    -webkit-border-radius: 80px 0px 80px 0;
+    -moz-border-radius: 80px 0px 80px 0;
+    -ms-border-radius: 80px 0px 80px 0;
+    -o-border-radius: 80px 0px 80px 0;
+    padding: 133px 27px 133px 120px;
+    max-width: 690px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -48px;
+}
+
+.mapsect__infobox::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 144px;
+    background-color: #62487C;
+    position: absolute;
+    top: 152px;
+    left: -75px;
+}
+
+.mapsect__infoblock {
+    padding-left: 93px;
+}
+
+.mapsect__infoblock p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 129%;
+    color: #62487C;
+}
+
+.mapsect__infobox .mapsect__infoblock:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.mapsect__infoblock ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mapsect__infoblock ul li a {
+    font-size: 20px;
+    line-height: 150%;
+    color: #62487C;
+}
+
+.mapsect__infoblock {
+    background-repeat: no-repeat;
+    background-position: left top 5px;
+}
+
+.cont__address {
+    background-image: url(../image/icons/mapmark.svg);
+}
+
+.cont__timework {
+    background-image: url(../image/icons/clock.svg);
+}
+
+.cont__phone {
+    background-image: url(../image/icons/phone.svg);
+}
+
+.ourteam {
+    padding: 94px 0 94px 0;
+}
+
+.ourteam h3 {
+    margin-bottom: 35px;
+}
+
+.ourteam__slider .slick-slide {
+    height: 612px;
+}
+
+.teamslide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.teamslide>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.teamslide>img.teammainpic {
+    z-index: 2;
+    opacity: 1;
+}
+
+.teamslide>img.teamoffpic {
+    z-index: 1;
+    opacity: 0;
+}
+
+.teamslide:hover>img.teammainpic {
+    z-index: 1;
+    opacity: 0;
+}
+
+.teamslide:hover>img.teamoffpic {
+    z-index: 2;
+    opacity: 1;
+}
+
+.mainform.mainform_contact .mainform__sect {
+    background-image: url(../image/cont-form.png);
+}
+
+.mainform.mainform_contact {
+    padding-bottom: 198px;
+}
+
+.mainform.mainform_contact form {
+    margin-bottom: -54px;
+}
+
+.teaminfo {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1px;
+    width: calc(100% - 36px);
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    height: 164px;
+    padding: 30px 50px;
+}
+
+.teaminfo .name {
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4C4C4C;
+    font-family: HelveticaNeue;
+}
+
+.teaminfo .proff {
+    font-size: 18px;
+    line-height: 140%;
+    color: #FF6600;
+    font-family: HelveticaNeue;
+    text-align: center;
+}
+
+.messenger-fixicon {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07);
+    z-index: 2;
+    right: 18px;
+    bottom: 42px;
+    display: inline-block;
+    background-image: url(../image/icons/fixedsocicon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: none;
+}
+
+
+
 
 
 
